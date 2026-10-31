@@ -1,0 +1,46 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+# Django databases
+**/db.sqlite3
+**/*.sqlite3
+
+# Uploaded media and user files
+**/media/
+
+# Environment and virtual environments
+**/.env
+**/.env.*
+**/venv/
+**/.venv/
+
+# Python testing
+.pytest_cache/
+**/.pytest_cache/
+playwright-report/
+test-results/
+
+# Local databases and SQL backups
+SQL File/
+
+# Logs
+*.log
+
+# Generated testing screenshots and debug logs
+**/dashboard-login-test.png
+**/manage-visitors-test.png
+**/login-audit.png
+**/login-page.png
+**/offsetwidth-results.txt
+
+# Local database backups
+/SQL File/
